@@ -1,0 +1,16 @@
+.btnItem {
+  margin: 10px;
+  padding: 5px;
+  width: 80px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btnItem:hover,
+.btnItem:focus {
+  background-color: rgb(142, 194, 176);
+  border: none;
+}
+.title {
+  margin-left: 20px;
+}
