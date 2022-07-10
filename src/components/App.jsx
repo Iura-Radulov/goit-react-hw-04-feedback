@@ -35,7 +35,8 @@ export const App = () => {
   };
 
   const sum = countTotalFeedback();
-  const percent = countPositiveFeedbackPercentage();
+  const percent = Number(countPositiveFeedbackPercentage()).toFixed(2);
+
   return (
     <div className="container">
       <Section title="Please leave feedback">
