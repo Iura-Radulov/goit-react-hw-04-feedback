@@ -21,13 +21,13 @@ export const App = () => {
   const onLeaveFeedback = name => {
     switch (name) {
       case options[0]:
-        setGood(prev => prev + 1);
+        setGood(prevState => prevState + 1);
         break;
       case options[1]:
-        setNeutral(prev => prev + 1);
+        setNeutral(prevState => prevState + 1);
         break;
       case options[2]:
-        setBad(prev => prev + 1);
+        setBad(prevState => prevState + 1);
         break;
       default:
         console.log('It is heppened something wrong');
